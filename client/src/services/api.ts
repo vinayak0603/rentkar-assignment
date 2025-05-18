@@ -3,7 +3,7 @@ import { DeliveryPartner, Order, Assignment, AssignmentMetrics } from '@/types';
 import { toast } from '@/hooks/use-toast';
 
 // Base URL for API calls - set to your backend server URL
-const BASE_URL = 'http://localhost:5000/api';
+const BASE_URL = 'https://rentkar-assignment-wn59.onrender.com/api';
 
 // Helper function to handle API responses
 const handleResponse = async (response: Response) => {
