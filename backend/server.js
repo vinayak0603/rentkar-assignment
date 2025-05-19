@@ -21,7 +21,7 @@ app.use(express.json());
 const connectDB = async () => {
   try {
     // You would replace this URL with your MongoDB connection string in the .env file
-    const mongoURI = process.env.MONGO_URI || 'mongodb://localhost:27017/delivery_system';
+    const mongoURI = process.env.MONGO_URI;
     await mongoose.connect(mongoURI);
     console.log('MongoDB connected successfully');
   } catch (error) {
