@@ -105,12 +105,15 @@ npm run dev
 
 ---
 
-## 🤝 Video Link
+##  Video Link
+
+https://drive.google.com/file/d/19gVlpq-yNjbmUUS2wdRa0gx1sJ08ruF0/view?usp=drivesdk 
 
 ---
 
-## 🤝 Live Link
+##  Live Link
 
+https://smart-delivery-rentkar.netlify.app/
 ---
 
 
