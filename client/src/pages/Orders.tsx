@@ -173,7 +173,7 @@ const Orders = () => {
   };
 
   // Get unique areas from orders
-  const areas = ['Sion', 'Matunga', 'Andheri', 'Powai', 'Bandra', 'Khar'];
+  const areas = ['Downtown', 'Westside', 'Eastside', 'Suburbs', 'Uptown'];
 
   // Calculate metrics
   const pendingCount = orders.filter(o => o.status === 'pending').length;
